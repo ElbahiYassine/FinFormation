@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>@Page.Title</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <a href="#" id="toggle">
+            menu
+        </a>
+        <a href="index.html" id="linklog"><img src="~/img/Asset 4.png" alt="Logo" id="logo"></a>
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#secShop">Shop</a></li>
+                <li><a href="#secBlog">Blog</a></li>
+                <li><a href="#secTeams">Teams</a></li>
+                <li><a href="#secContact">Contact</a></li>
+            </ul>
+
+        </nav>
+
+        <div>
+            <a href="#" id="btnSignIn" class="btn">Sign In</a>
+            <a href="#" id="btnSignUp" class="btn btn-Up">Sign Up</a>
+        </div>
+
+
+
+    </header>
+
+    @RenderBody()
+
+    <footer></footer>
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/index.js"></script>
+</body>
+</html>
