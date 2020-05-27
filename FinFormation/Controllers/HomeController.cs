@@ -15,7 +15,7 @@ namespace FinFormation.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Your application not description page.";
 
             return View();
         }
